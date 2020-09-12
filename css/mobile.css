@@ -1,0 +1,14 @@
+@media(max-width:500px) {
+
+    input[type="text"], input[type="password"], ::placeholder{
+    font-size: 0.8rem;
+    }
+
+
+
+  .inner-circle{
+    max-width: 250px;
+  
+    }
+
+}

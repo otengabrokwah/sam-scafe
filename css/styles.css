@@ -1,0 +1,104 @@
+/* RESET CODE */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+
+:scope{
+    --outer-color:#9e140d;
+    --inner-color:#f3d346;
+    --light-grey-color:#faf8f8;
+    --white-color:#fff;
+}
+
+
+
+/* REFRACTED CODE */
+.form-heading h1, .image-logo{
+    margin-bottom: 1rem;
+
+}
+
+
+input[type="text"], input[type="password"], .form-button button{
+    width: 100%;
+    outline-color: var(--inner-color);
+}
+
+
+input[type="text"], input[type="password"], ::placeholder{
+    font-size: 1rem;
+}
+
+
+
+/* MAIN CODE */
+.form-heading h1{
+    font-family: 'Rammetto One', cursive;
+    color: var(--outer-color);
+    text-align: center;
+}
+
+
+#form-display{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    height: 80vh;
+}
+
+
+.inner-circle{
+    margin: auto;
+    max-width: 390px;
+    background: var(--light-grey-color);
+    /* background-color: var(--inner-color); */
+    padding: 0 1.3rem 2rem;
+}
+
+
+.image-logo {
+    text-align: center;
+    /* margin-top: 2rem;   */
+    position: relative;
+    top: 1rem;
+} 
+
+
+img{
+    width: 35%;
+    border-radius: 100%;
+}
+
+
+label{
+    font-size: 1.2rem;
+    padding-left: 0.2rem;
+}
+
+
+input[type="text"], input[type="password"]{
+    margin-bottom: 0.5rem;
+    padding: 0.2rem;
+    border: var(--outer-color) 1px solid;
+    text-indent: 0.2rem;
+}
+
+
+.form-button button{
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+    border: var(--outer-color) 1px solid;
+    font-size: 1.3rem;
+    background-color: var(--outer-color);
+    color: var(--white-color);
+}
+
+
+
+
