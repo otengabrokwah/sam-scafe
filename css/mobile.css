@@ -1,6 +1,6 @@
 @media(max-width:500px) {
 
-    input[type="text"], input[type="password"], ::placeholder{
+    input[type="number"], input[type="password"], ::placeholder{
     font-size: 0.8rem;
     }
 
@@ -15,8 +15,9 @@
     font-size: 1rem;
     }
 
-/* label{
-    display: none;
-} */
+    .form-heading h3{
+        font-size:1rem;
+    }
+
 
 }
